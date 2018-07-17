@@ -35,4 +35,14 @@ React-Native introduction in doodles/用涂鸦让你认识React-Native
 ### 不仅仅应用于Web
 到目前为止，你应该已经对React有了如下的认识：
 ![React Feature](https://learnreact.design/static/1-react-summary-28be1df2fed9962a09c159ded7e14881-d47ca.png)
-React是一个非常牛b的工具来帮助我们在Web程序中搭建用户界面。借助React，我们可以直接通过描述我们想要的样式来更新UI，而不是手动更新UI（reactive UI），创建可以复用的组件和高性能的UI，而不用担心DOM操作缓慢的问题（virtual DOM）。越来越多的Web开发者开始投入到React的怀抱，因为他们可以专注于整体的设计而不用纠结于各种小细节的操作。We call this way of building the UI React paradigm. A paradigm is basically the way how you think about a problem and how you describe it and its solution2.
+
+React是一个非常牛b的工具来帮助我们在Web程序中搭建用户界面。借助React，我们可以直接通过描述我们想要的样式来更新UI，而不是手动更新UI（reactive UI），创建可以复用的组件和高性能的UI，而不用担心DOM操作缓慢的问题（virtual DOM）。越来越多的Web开发者开始投入到React的怀抱，因为他们可以专注于整体的设计而不用纠结于各种小细节的操作。We call this way of building the UI React paradigm. A paradigm is basically the way how you think about a problem and how you describe it and its solution2。我们称这种方式为React UI 构建范式，一个你如何去思考、描述以及解决问题的范式。
+
+这对Web应用程序来说非常棒。那像其他的平台呢，例如iOS和Android？如果我们可以直接使用React 范式来开发移动应用那岂不是碉堡了吗？
+
+在某种程度上，移动平台和Web平台的工作方式是有些类似的。都有一个模型(一棵树)。有一些东西可以根据模型来生成可以被看见的元素(一个画家)。毫无疑问的是，构建
+移动端UI比较传统的方式是直接操纵树模型去渲染和更新(直接和树进行对话)。这和在Web浏览器中直接操作DOM有类似的缺点。React在这方面可以大展拳脚。
+
+
+程序
+

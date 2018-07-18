@@ -3,7 +3,7 @@ React-Native introduction in doodles/用涂鸦让你认识React-Native
 
 ## 在阅读之前
 ### 1. 起源
-偶然间在知乎专栏读到一篇翻译的国外文章[图解React](https://zhuanlan.zhihu.com/p/39658720?utm_source=wechat_session&utm_medium=social&wechatShare=1#showWechatShareTip)文章，觉得写的/翻译的非常不错，生动形象；在原文链接中发现还有React-Native系列文章，自己对React-Native比较认可和感兴趣，便决定翻译一下这篇文章。希望能让更多的新手了解和上手React-Native。建议先阅读[图解React](https://zhuanlan.zhihu.com/p/39658720?utm_source=wechat_session&utm_medium=social&wechatShare=1#showWechatShareTip)
+偶然间在知乎专栏读到一篇翻译的国外文章[图解React](https://zhuanlan.zhihu.com/p/39658720?utm_source=wechat_session&utm_medium=social&wechatShare=1#showWechatShareTip)文章，觉得写的/翻译的非常不错，生动形象；在原文链接中发现还有React-Native系列文章，自己对React-Native比较认可和感兴趣，便决定翻译一下这篇文章。希望能让更多的新手了解和上手React-Native。建议先阅读[图解React](https://zhuanlan.zhihu.com/p/39658720?utm_source=wechat_session&utm_medium=social&wechatShare=1#showWechatShareTip)。
 
 ### 2. 原文系列 in English
 > [原博地址](https://learnreact.design/blog)
@@ -40,9 +40,21 @@ React是一个非常牛b的工具来帮助我们在Web程序中搭建用户界�
 
 这对Web应用程序来说非常棒。那像其他的平台呢，例如iOS和Android？如果我们可以直接使用React 范式来开发移动应用那岂不是碉堡了吗？
 
-在某种程度上，移动平台和Web平台的工作方式是有些类似的。都有一个模型(一棵树)。有一些东西可以根据模型来生成可以被看见的元素(一个画家)。毫无疑问的是，构建
-移动端UI比较传统的方式是直接操纵树模型去渲染和更新(直接和树进行对话)。这和在Web浏览器中直接操作DOM有类似的缺点。React在这方面可以大展拳脚。
+在某种程度上，移动平台和Web平台的工作方式是有些类似的。都有一个模型(一棵树)。有一些东西可以根据模型来生成可以被看见的元素(一个画家)。毫无疑问的是，构建移动端UI比较传统的方式是直接操纵树模型去渲染和更新(直接和树进行对话)。这和在Web浏览器中直接操作DOM有类似的缺点。React在这方面可以大展拳脚。
+
+抛开这些相同点，移动端平台与Web平台又是有很大区别的，并且移动平台之间也不尽相同。以前，开发者必须去学习特定的编程语言和工具链来去为特定的平台编写App。
+
+这种感觉就像是和一个异国的工作室里的员工进行沟通，并且他们还说不同的语言。你必须去学习他们的语言以便和他们进行沟通。这听起来并不是一件很轻松的事情。
+
+![exotic studios](https://learnreact.design/static/2-ios-android-9937949ca76a9fd81237721a60e48023-fb8a0.png)
+
+因此，如果你想同时为iOS和Android开发一款App，你就必须去学习两种完全不同的代码。同一个业务逻辑不得不去实现两次。用这样的方式去开发一款App不仅很苦难、而且成本很高，更不用说以后的维护工作了。
+
+这就是React Native诞生的原因。接下来让我们看看它是如果让这一切变得简单起来的。
+
+### React Native
+
+#### Renderers And The New React
 
 
-程序
 
